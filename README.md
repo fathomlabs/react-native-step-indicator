@@ -2,6 +2,8 @@
 
 A simple react-native implementation of step indicator widget compatible with the ViewPager and ListView.
 
+This is a maintained fork of [@24ark/react-native-step-indicator](https://github.com/24ark/react-native-step-indicator), fixed to work with the latest react(-native).
+
 Features
 
   - Can be used with ViewPager and Listview
@@ -22,7 +24,7 @@ $ react-native run-android   // For Android
 ```
 
 ### Installation
-``npm install react-native-step-indicator --save``
+``npm install fathomlabs/react-native-step-indicator --save``
 
 ### Usage
 ```javascript
@@ -86,7 +88,7 @@ onPageChange(position){
 | ```customStyles``` | Object  | Custom styling | {}
 | ```labels``` | Array  | Labels for each step | null
 | `onPress` | Function (position: Number) | Function called when a step is pressed | null
-| `renderStepIndicator` | Function (position: Number, stepStatus: String) | Use this to render custom content inside step | null 
+| `renderStepIndicator` | Function (position: Number, stepStatus: String) | Use this to render custom content inside step | null
 
 ### Custom Styles
 
